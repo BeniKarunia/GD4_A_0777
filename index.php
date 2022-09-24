@@ -21,7 +21,7 @@
                         href="./page/registerPage.php">Sign Up</a>
                     </button>
                     <button class="btn btn-warning ms-2" type="button"
-                    href="./loginPage.php">
+                    href="./page/loginPage.php">
                     <a class="text-light" style="text-decoration: none"
                     href="./page/loginPage.php">Login</a>
                 </button>

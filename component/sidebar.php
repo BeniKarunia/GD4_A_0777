@@ -75,8 +75,13 @@ rel="stylesheet">
                                <a href="../page/listMoviesPage.php" style="font-weight:600">List Movie</a>
                            </div>
                            <div class="content-menu " >
+                                <i class="fa fa-user-circle-o"></i>
+                                <a href="../page/profilePage.php" style="font-weight:600">Profile</a>
+                            </div>
+                           <div class="content-menu " >
                                <i class="fa fa-sign-out"></i>
                                <a href="../process/logOutProcess.php" style="font-weight:600">&nbspLogout</a>
+                            
                            </div>
                            <hr>
                        </div>
