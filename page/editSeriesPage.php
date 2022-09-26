@@ -6,12 +6,13 @@
 ?>
     <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px
     solid #D40013; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);" >
-        <h4 >EDIT DATA MOVIE</h4>
+        <h4 >EDIT SERIES</h4>
         <hr>
-        <form action="../process/editMovProcess.php" method="post">
+        <form action="../process/editSerProcess.php" method="post">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input class="form-control" id="name" name="name">
+                <input class="form-control" id="name" 
+                name="name" value="<?php echo $data['name'] ?>">
             </div>
             
             <div class="mb-3">
@@ -26,13 +27,21 @@
             </div>
 
             <div class="mb-3">
-                <label for="realese" class="form-label">Your Release</label>
-                <input class="form-control" id="realese" name="realese">
+                <label for="realease" class="form-label">Your Release</label>
+                <input class="form-control" id="realease" 
+                name="realease" value="<?php echo $data['realease'] ?>">
+            </div>
+
+            <div class="mb-3">
+                <label for="episode" class="form-label">Episode</label>
+                <input class="form-control" id="episode" 
+                name="episode" value="<?php echo $data['episode'] ?>">
             </div>
 
             <div class="mb-3">
                 <label for="season" class="form-label">Season</label>
-                <input class="form-control" id="season" name="season">
+                <input class="form-control" id="season" 
+                name="season" value="<?php echo $data['season'] ?>">
             </div>
 
             <div class="mb-3">
@@ -41,7 +50,7 @@
             </div>
 
             <div class="d-grid gap-2">
-                <button type="submit" class="btn btn-primary" name="saveButton">Save</button>
+                <button type="submit" class="btn btn-primary" name="saveEdit">Save Edit</button>
             </div>
 
             <input type="hidden" name="id" value="<?= $data['id'];?>">

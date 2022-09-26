@@ -60,7 +60,7 @@
     </div>
     </form>
     <p class="mt-2 mb-0">Have an account? <a
-    href="../process/loginProcess.php" class="text-primary">Login here!</a></p>
+    href="../page/loginPage.php" class="text-primary">Login here!</a></p>
     </div>
     </div>
     </div>

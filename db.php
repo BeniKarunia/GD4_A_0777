@@ -2,7 +2,7 @@
         $host = "localhost";
         $user = "root";
         $pass = "";
-        $name = "UGD4_A_0777";
+        $name = "GD4_A_0777";
         $con = mysqli_connect($host,$user,$pass,$name);
         if(mysqli_connect_errno()){
         echo "Failed to connect : " . mysqli_connect_error();

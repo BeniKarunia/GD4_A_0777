@@ -22,8 +22,8 @@ crossorigin="anonymous">
                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
                <link rel="preconnect" href="https://fonts.googleapis.com">
                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-               <link
-href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+               <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
 rel="stylesheet">
                <title>Dashboard!</title>
    
@@ -73,6 +73,10 @@ rel="stylesheet">
                            <div class="content-menu " >
                                <i class="fa fa-film"></i>
                                <a href="../page/listMoviesPage.php" style="font-weight:600">List Movie</a>
+                           </div>
+                           <div class="content-menu " >
+                               <i class="fa fa-light fa-tv"></i>
+                               <a href="../page/listSeriesPage.php" style="font-weight:600">List Series</a>
                            </div>
                            <div class="content-menu " >
                                 <i class="fa fa-user-circle-o"></i>
